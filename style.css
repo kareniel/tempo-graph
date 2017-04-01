@@ -7,5 +7,40 @@ body {
   height: 600px;
   display: block;
   margin: 0 auto;
-  background-color: black;
+  background-color: white;
+  border: 1px dashed grey;
+  position: relative;
+}
+
+#y-axis {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+#y-axis > .tick {
+
+}
+
+.node {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+}
+
+.node:hover {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+.node:active {
+  cursor: -webkit-grabbing; 
+  cursor:-moz-grabbing;
 }
