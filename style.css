@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+
+#tempo-graph {
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+}

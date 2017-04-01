@@ -1,0 +1,25 @@
+{
+  "name": "tempo-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live --css style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/tempo-graph.git"
+  },
+  "author": "kareniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/tempo-graph/issues"
+  },
+  "homepage": "https://github.com/kareniel/tempo-graph#readme",
+  "devDependencies": {
+    "budo": "^9.4.7"
+  },
+  "dependencies": {
+    "choo": "^5.1.4"
+  }
+}
