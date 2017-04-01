@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js --live --css style.css"
+    "start": "budo index.js --live --css style.css",
+    "build": "bash build.sh"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "budo": "^9.4.7"
   },
   "dependencies": {
-    "choo": "^5.1.4"
+    "choo": "^5.1.4",
+    "es2040": "^1.2.5",
+    "yo-yoify": "^3.7.0"
   }
 }
